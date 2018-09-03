@@ -2,7 +2,7 @@
 Our team members are Po-Nien Chiang, Lan Ken Nhan, Xiaoxuan Iris Feng, Yufei Lisa Wang.
 
 
-The aim of this repository is to do the text classification on apple store app description, then decide the app's category.
+The aim of this repository is to classify the categories based on apple store app description using text mining.
 
 There are two raw datasets and four code file:
 
@@ -19,7 +19,7 @@ Result: The passive aggressive classifier performs best based on global fit, F1:
 
 
 Data Description:
-Here is four columns in dataset, "id","description","main category","sub category".
+There are four features in the original dataset, namely "id","description","main category","sub category".
 id: app id
 description: text description about app
 main category: main category the app belong to
