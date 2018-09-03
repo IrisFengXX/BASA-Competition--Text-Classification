@@ -4,15 +4,14 @@ Our team members are Po-Nien Chiang, Lan Ken Nhan, Xiaoxuan Iris Feng, Yufei Lis
 
 The aim of this repository is to classify the categories based on apple store app description using text mining.
 
-There are two raw datasets and four code file:
+There are two raw datasets and four code files:
 
 1.testing.csv (sample test dataset)
 2.training.csv (sample training dataset)
 3.data_cleaning.py (remove special characters(like *), punctuations, stopwords, stemming of training data and test data)
 4.naibayes_SVM.py (try naive_bayes and svm as baseline)
 5.other models.py (try other models like MultinomialNB, SGDClassifier, RandomForestClassifier, AdaBoostClassifier using global fit)
-6.out of core.py (compare with global fit, use partial fit as learning method to save time and internal memory, and try models like
-  MultinomialNB, SGDClassifier, passive aggressive classifier)
+6.out of core.py (compare with global fit, use partial fit as learning method to save time and internal memory, and try models like MultinomialNB, SGDClassifier, passive aggressive classifier)
 
 
 Result: The passive aggressive classifier performs best based on global fit, F1: 0.84, recall: 0.84, precision: 0.84
